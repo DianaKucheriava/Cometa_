@@ -1,0 +1,346 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px; 
+}
+
+header {
+    background-color:  #66101F;
+}
+
+section {
+    background-color: #FFFCFF;
+}
+
+.container .nav-main ul{
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container .nav-main li {
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 3px solid;
+    border-color: transparent;    
+}
+
+.container .nav-main a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 20px;
+    font-weight: 300;
+
+}
+
+.container .nav-main li:hover {
+    background-color:rgb(57, 171, 111);
+        border-color:rgb(3, 27, 14);
+
+}
+
+.container {
+    width: 1000px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.container .title h1{
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 10px; 
+}
+
+.container .instructions {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.container .instructions h2 {
+    font-weight: 400;
+}
+
+.container .instructions p {
+    font-weight: 300;
+}
+
+.result, .container-options {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.entries {
+    display: inline-block;
+    margin: auto;
+}
+
+.result .result-row .__result input[type="number"] {
+    border: 1px solid;
+    border-color: #ccc;
+    border-radius: 3px;
+    width: 400px;
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: -17px;
+    margin-right: 20px;
+}
+
+.result .result-row .__result input[type="number"]::-webkit-outer-spin-button, 
+.resul .result-row .__result input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.result .result-row .__result {
+    margin-bottom: 20px;
+    margin-top: 10px; 
+}
+
+.result .result-row .result-container .__result p {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+/* Project types */
+.container .container-options .organic,
+.container .container-options .moderate,
+.container .container-options .embedded {
+    transition: background-color 1.5s linear;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px; 
+    border-color: rgba(0,0,0,.3);
+    border-radius: 5px 5px 5px 5px;
+    background-color: #fff;
+    color: #010d17 ;
+    height: 210px;
+}
+
+.container .container-options .organic:hover,
+.container .container-options .moderate:hover,
+.container .container-options .embedded:hover {
+    cursor: pointer;
+    background-color: rgb(57, 171, 111);
+}
+.container .container-options .organic .type,
+.container .container-options .moderate .type,
+.container .container-options .embedded  .type {
+    text-align: center;
+}
+.container .container-options .organic h3,
+.container .container-options .moderate h3,
+.container .container-options .embedded h3{
+    font-weight: 400;
+}
+
+.container .container-options .organic p,
+.container .container-options .moderate p,
+.container .container-options .embedded p {
+    font-weight: 300;
+    min-height: 120px;
+}
+
+.conductors-cost .product,
+.conductors-cost .platform,
+.conductors-cost .personal,
+.conductors-cost .project {
+    /*display: inline-block;*/
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.product__opt {
+    display: inline-block;
+    margin: 19px;
+}
+
+.product__opt p, 
+.product__opt select {
+    display: inline-block;
+}
+
+.product__opt select {
+    border: 1px solid;
+    border-color: #ccc;
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+}
+
+.conductors-cost .product fieldset,
+.conductors-cost .platform fieldset,
+.conductors-cost .personal fieldset,
+.conductors-cost .project fieldset {
+    border: 1px solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 3px;
+}
+
+.result-row .__result p{
+    display: block;
+
+}
+
+.container button {
+    display: block;
+    margin: auto;
+    background-color: #3a593b;
+    border: 1px solid;
+    border-color: #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #eee;
+}
+
+.result button:hover {
+    cursor: pointer;
+    border-color: #c8d9c8;
+}
+
+.equations {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+.equations.equations td {
+    border-color: #f7f9f7;
+
+}
+.equations td {
+    border: 1px solid;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+     background-color:rgb(57, 171, 111);
+}
+
+.container-equations {
+    padding-top:10px; 
+}
+
+.container .factors-scale {
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.factor {
+    display: inline-block;
+    margin: 20px;
+}
+
+.factor p, 
+.factor select {
+    display: inline-block;
+}
+
+.factor select {
+    border: 1px solid;
+    border-color: #ccc;
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+}
+
+.factors-scale fieldset {
+    border: 1px solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 3px;
+}
+
+.factors-scale .factorsScale-legend { 
+    border: 1px solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 3px;
+ }
+
+.factors-scale h3,
+.drivers-cost h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.result-container .__result .result-title {
+    background-color: #324432;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 10px;
+    color: white;
+    margin: 0px;
+}
+
+#timeDevelopment,
+#peopleNecessary,
+#costTotal{
+    margin: 0px auto;
+    padding: 10px 10px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+hr {
+    margin: 0px;
+}
+legend{
+    color: white;
+}
+#divWin {
+    top: 31px;
+    position: fixed;
+    width: 360px;
+    height: 500px;
+    border: 1px solid #626562;
+    border-radius: 12px;
+    background: rgba(57, 171, 111, 0.95);
+    visibility: hidden;
+    padding: 2px;
+    text-align: center;
+    z-index: 99999;
+    left: 962px;
+  }
+  #DB {
+    top: 31px;
+    position: fixed;
+    width: 360px;
+    height: 200px;
+    border: 1px solid #626562;
+    border-radius: 12px;
+    background: rgba(57, 171, 111, 0.95);
+    visibility: hidden;
+    padding: 2px;
+    text-align: center;
+    z-index: 99999;
+    left: 962px;
+  }
+
+#closetButton {
+    position:absolute; 
+    top:0;
+     right:0;
+      border-bottom:3px solid green; 
+     border-left:3px solid green;
+     border-radius: 25px;
+     width: 30px;
+      font-weight:bold; 
+      cursor:pointer;
+       padding:2px 4px;
+       z-index:99999999;  
+       background: darkcyan;
+   }
